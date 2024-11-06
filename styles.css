@@ -1,0 +1,23 @@
+.aipsample-placement-ui button.btn.btn-outline-secondary {
+    color: unset;
+}
+
+.aipsample-placement-ui button.btn.btn-outline-secondary span.sparkles-icon {
+    display: inline-block;
+}
+
+.aipsample-placement-ui button.btn.btn-outline-secondary span.sparkles-icon.white {
+    display: none;
+}
+
+.aipsample-placement-ui button.btn.btn-outline-secondary:not([disabled]):hover {
+    color: #fff;
+}
+
+.aipsample-placement-ui button.btn.btn-outline-secondary:not([disabled]):hover span.sparkles-icon {
+    display: none;
+}
+
+.aipsample-placement-ui button.btn.btn-outline-secondary:not([disabled]):hover span.sparkles-icon.white {
+    display: inline-block;
+}
